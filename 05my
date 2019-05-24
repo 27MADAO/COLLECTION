@@ -1,0 +1,7 @@
+1.判断类型
+  function type(ele){
+    var reg = /^\[object\s(.*)]$/;
+    var str = ({}).toString.apply(ele);
+    var res = reg.exec(str);
+    return res[1];
+  }

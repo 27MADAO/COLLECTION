@@ -1,6 +1,0 @@
-1.[].push.apply(obj, arr)
-  (1)通过[].push找到数组中的push方法
-  (2)通过apply(obj)修改push方法的this为obj
-  (3)将arr中的元素传给push方法的形参（包括length属性）
-  (4)将形参添加给this（即将arr内容添加给了obj）
-  >>>>> 可以用来将数组转化成对象
