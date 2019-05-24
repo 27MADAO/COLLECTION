@@ -5,3 +5,4 @@
     var res = reg.exec(str);
     return res[1];
   }
+  // Number、String、Boolean、Function、Window、Null、Undefined、Object
