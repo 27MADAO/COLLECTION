@@ -2,5 +2,8 @@
 2.闭包、异步
   闭包：闭包指的是有权访问父作用域的函数，即使在父函数关闭之后。(w3school)
   例如，要写一个计数器
-  
+  (1)var count = 0;
+     function add (){
+       return count++；
+     }
 3.无意中看到的，应该是关于java的，sevlet的生命周期？
