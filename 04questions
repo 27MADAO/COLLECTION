@@ -65,3 +65,10 @@
   babel：目前知道的是，在react中用来编译jsx代码。
   
 7.ajax、json  
+  ajax：async js async xml，异步js和异步xml。是一种无需重新加载整个网页，允许更新部分网页的技术，可用于创建快速动态网页。
+        AJAX是基于现有的Internet标准，并且联合使用它们（截取自w3school）：
+        XMLHttpRequest对象 (异步的与服务器交换数据)
+        JavaScript/DOM (信息显示/交互)
+        CSS (给数据定义样式)
+        XML (作为转换数据的格式)
+        注：AJAX应用程序与浏览器和平台无关
